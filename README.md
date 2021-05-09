@@ -8,3 +8,18 @@
 * Высокая точность поиска
 * Высокая скорость поиска
 * Низкая цена
+
+<p>Вы можете встроить NeuroStartUp в ваши приложения с помощью следующих сниппетов (кусочков) кода.</p>
+<p>JavaScript:</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c1">&lt;</span><span class="pl-ent">script</span> <span class="pl-c1">src</span><span class="pl-c1">=</span><span class="pl-s">"https://localhost/neuro.sdk.min.js"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-ent">script</span><span class="pl-c1">&gt;</span></pre></div>
+<p>Java (Maven):</p>
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">dependency</span>&gt;
+  &lt;<span class="pl-ent">groupId</span>&gt;neuro&lt;/<span class="pl-ent">groupId</span>&gt;
+  &lt;<span class="pl-ent">artifactId</span>&gt;sdk&lt;/<span class="pl-ent">artifactId</span>&gt;
+  &lt;<span class="pl-ent">version</span>&gt;1.0.0&lt;/<span class="pl-ent">version</span>&gt;
+&lt;/<span class="pl-ent">dependency</span>&gt;</pre></div>
+<p>iOS (добавьте код в ваш Podfile):</p>
+<pre><code>platform :ios, '8.0'
+pod "neuro-ios-sdk"
+</code></pre>
+</details>
